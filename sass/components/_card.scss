@@ -56,6 +56,8 @@
     background-blend-mode: screen;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 
     &--1 {
       background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark), url(../img/nat-5.jpg);
@@ -80,6 +82,7 @@
     top: 12rem;
     right: 2rem;
     width: 75%;
+    z-index: 1;
   }
 
   &__heading-span {
