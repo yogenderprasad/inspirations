@@ -494,10 +494,12 @@ body {
     clip-path: circle(50% at 50% 50%);
     transform: translateX(-3rem) skewX(12deg);
     position: relative;
-    z-index: 1; }
+    z-index: 100;
+    overflow: hidden; }
   .story__img {
     height: 100%;
     transform: translateX(-4rem) scale(1.4);
+    backface-visibility: hidden;
     transition: all .5s; }
   .story__text {
     transform: skewX(12deg); }
@@ -697,10 +699,10 @@ body {
   .navigation__icon::after {
     top: .8rem; }
 
-.navigation__buton:hover .navigation__icon::before {
+.navigation__button:hover .navigation__icon::before {
   top: -1rem; }
 
-.navigation__buton:hover .navigation__icon::after {
+.navigation__button:hover .navigation__icon::after {
   top: 1rem; }
 
 .navigation__checkbox:checked + .navigation__button .navigation__icon {
