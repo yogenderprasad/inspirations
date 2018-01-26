@@ -1,6 +1,6 @@
 # Inspiration
 
-This is a project built for learning and practicing advanced CSS and SASS for a class (see acknowledgements).  It's built with pure HTML and CSS.  There's no real content, so I've sprinkled in some inspirational quotes (hence the name).
+This is a project built for learning and practicing advanced CSS and SASS for a class (see acknowledgements).  It's built with pure HTML and CSS.  I've sprinkled in some cheesy inspirational quotes that love for the dummy content (hence the name).
 
 ## Demo
 [https://css-inspiration.surge.sh/](https://css-inspiration.surge.sh/ "Inspiration")
