@@ -7,6 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
+    "start": "live-server --port=3001",
+    "deploy": "surge --domain inspiration.surge.sh",
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "repository": {
