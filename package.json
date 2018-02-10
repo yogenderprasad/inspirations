@@ -1,7 +1,7 @@
 {
   "name": "inspiration",
   "version": "1.0.0",
-  "description": "Quotations",
+  "description": "Inspirational quotes, practice CSS project",
   "main": "index.js",
   "directories": {
     "doc": "docs"
